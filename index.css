@@ -1,0 +1,152 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.Tela {
+    display: block;
+    justify-content: center;
+    align-items: center;
+
+
+    height: 50vh;
+    width: 33vh;
+
+    border-radius: 40px;
+    background-color: #6c63ff;
+    color: #ffffff;
+}
+
+.Resultado {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+
+    margin-top: 25px;
+    padding: 20px;
+
+    font-size: 25px;
+}
+
+.Nota {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 15%;
+    margin: 0%;
+    padding-top: 15%;
+
+    font-size: 55px;
+}
+
+.Max {
+    display: flex;
+    justify-content: center;
+
+    margin: 0%;
+
+    font-size: small;
+    color: #b6b2b2;
+    opacity: 0.6;
+}
+
+h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 80px;
+}
+
+h4 {
+    text-align: center;
+}
+
+.Sumário {
+    height: 45vh;
+    width: 30vh;
+
+    border-radius: 25px;
+    padding: 15px 10;
+    font-size: 25px;
+
+    color: #34048b;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+    font-size: 15px;
+    padding: 20px 20px;
+    margin-bottom: 15px;
+
+    width: 200px;
+    border-radius: 10px;
+
+   cursor: pointer;
+}
+
+li img{
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.S{
+    color: #f55;
+    font-weight: bold;
+    margin-right: auto;
+}
+
+.M{
+    color: #FFB21E;
+    font-weight: bold;
+    margin-right: auto;
+}
+
+.V{
+    color: #00BB8F;
+    font-weight: bold;
+    margin-right: auto;
+}
+
+.Vi{
+    color: #1125D6;
+    font-weight: bold;
+    margin-right: auto;
+}
+
+.SC{
+    font-size: 20px;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+
+
+button{
+    display: block;
+    width: 150px;
+    margin: 20px auto 0;  /* Centraliza e adiciona espaçamento acima */
+    padding: 10px 20px;
+    border-radius: 25px;
+
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color:#6c63ff ;
+
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.botão-continuar:hover {
+    background-color: #5548c8;
+}
